@@ -1,0 +1,884 @@
+*,
+*:after,
+*:before {
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: Ministry Heavy;
+	src: url(fonts/Ministry Heavy.ttf);
+}
+@font-face {
+	font-family: Source Black;
+	src: url(fonts/SourceCodePro-Black.ttf);
+}
+
+@font-face {
+	font-family: Source Bold;
+	src: url(fonts/SourceCodePro-Bold.ttf);
+}
+
+@font-face {
+	font-family: Source Light;
+	src: url(fonts/SourceCodePro-Light.ttf);
+}
+
+@font-face {
+	font-family: Source Medium;
+	src: url(fonts/SourceCodePro-Medium.ttf);
+}
+
+/*<<<<<<<< INICIO MENU Principal >>>>>>>*/
+@media screen and (min-width: 360px) {
+
+}
+.menu {
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #efa616;
+	border:solid;
+	border-width: thick;
+	border-color: #2e3292;
+}
+
+.menu__logo1{
+	height: 30vh;
+	margin-top: 20vh;
+	margin-left: 20px;	
+}
+.menu__logo2{
+	height: 10vh;
+	margin-left: 50px;	
+}
+
+.menu__caixa--itens{
+	width: 55vw;
+}
+
+.menu__itens{
+	padding-right: 2vw;
+	font-family: Source Bold;
+	font-weight: 700;
+	color: #2E3192;
+	text-decoration: none;
+}
+/*<<<<<<<<FINAL MENU principal >>>>>>>>*/
+/*<<<<<<<< INICIO HEADER >>>>>>>>*/
+.home{
+	width: 100%;
+	height: 100vh;
+	background: url(assets/homeFundo.jpg) top;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.home__caixa{
+	width: 565px;
+	height: 199px;
+	margin-right: 10%;
+}
+
+.home__caixa--texto{
+	font-family: Source Black;
+	color: #fff;
+	font-size: 2.625em;
+}
+@media screen and (min-width: 360px) {
+	
+}
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL HEADER >>>>>>>>*/
+/*<<<<<<<< INICIO MENU secundário >>>>>>>*/
+.menu {
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #efa616;
+	border:solid;
+	border-width: thick;
+	border-color: #2e3292;
+}
+
+.menu__logo{
+	height: 10vh;
+	margin-left: 50px;	
+}
+
+.menu__caixa--itens{
+	width: 70vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu__itens{
+	color: #2e3192;
+	font-size: 1em;
+	font-family: Source Bold;
+	font-style: normal;
+	font-weight: 700;
+	text-decoration: none;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<<FINAL MENU secundario >>>>>>>>*/
+/*<<<<<<<< INICIO Bloco-Michel >>>>>>>*/
+.bloco-mitchel{
+	max-height: 69vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+.bloco-mitchel__imagem{
+	width: 25vw;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+.bloco-mitchel__caixa{
+	width: 26rem;
+
+}
+.bloco-mitchel__citacao{
+	width: 60%;
+	font-size: 1.2em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #2E3192;
+
+}
+.bloco-mitchel__sobre{
+	width: 15vw;
+}
+
+.bloco-mitchel__sobre--nome{
+	font-family: Source Bold;
+	font-size: 1em;
+	text-align: center;
+	color: #FCAF17;
+	background-color: #E84710;
+}
+.bloco-mitchel__sobre--cargo{
+	font-family: Source Bold;
+	font-size: 1em;
+	text-align: center;
+	color: #FCAF17;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL Bloco-Michel >>>>>>>*/
+/*<<<<<<<< INICIO Bloco-PORQUE >>>>>>>*/
+.bloco-porque{
+	width: 100%;
+	height: 38rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FCAF17;
+}
+.bloco-porque__titulo{
+	width: 100%;
+	font-size: 3.5em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+	color: #2C398C;
+	border-color: 1px;
+	text-align: center;
+}
+.bloco-porque__caixa{
+	width: 100%;
+	height: 70vh;
+	padding: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.bloco-porque__caixa--itens{
+	width: 38%;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bloco-porque__caixa--icone{
+	width: 20%;
+	margin-right: 5%;
+
+}
+.bloco-porque__caixa--texto{
+
+}
+.bloco-porque__caixa--subtitulo{
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+	color: #2E3292;
+}
+.bloco-porque__caixa--paragrafo{
+	font-size: 1em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;	
+	color: #2E3292;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL Bloco-PORQUE >>>>>>>*/
+/*<<<<<<<< INICIO Bloco-POLOS >>>>>>>*/
+.bloco-polos{
+	width: 100%;
+	height: 45rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #E84710;
+}
+.bloco-polos__titulo{
+	margin-bottom: 30px;
+	font-size: 3.5em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #2C398C;
+	border-color: 1px;
+	text-align: center;
+}
+.bloco-polos__container{
+	width: 95%;
+	height: 80vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.bloco-polos__caixa{
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.bloco-polos__caixa--img{
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+.bloco-polos__caixa--titulo{
+	width: 100%;
+	font-size: 2em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #FCAF17;
+	
+}
+.bloco-polos__caixa--ONG{
+	margin-bottom: 2%;
+	font-size: 2em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #2E3292;
+}
+.bloco-polos__caixa--texto{
+	font-size: 1.3em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:400;	
+	color: #2E3292;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL Bloco-POLOS >>>>>>>*/
+/*<<<<<<<< INICIO Bloco-MODULOS >>>>>>>*/
+.bloco-modulos{
+	width: 100%;
+	height: 38rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(assets/ALUNOS.jpg);
+}
+.bloco-modulos__titulo{
+	font-size: 3.5em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #fff;
+	border-color: 1px;
+	text-align: center;
+}
+.bloco-modulos__container{
+	width: 75%;
+	height: 65vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+/*	background-color: green;
+*/}
+.bloco-modulos__caixa{
+	width: 15rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+.bloco-modulos__caixa--subtitulo{
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+}
+.bloco-modulos__caixa--img{
+	width: 95%;
+}
+.bloco-modulos__caixa--legenda{
+	text-align: center;
+	font-size: 1.3em;
+	font-family: source Bold;
+	color: #fff;
+}
+.bloco-modulos__caixa--paragrafo{
+	text-align: center;
+	font-size: 1.1em;
+	font-family: source Light;
+	color: #fff;
+}
+.bloco-modulos__button{
+	display: block;
+	width: 18vw;
+	height: 6vh;
+	background: #313B80;
+	border: 3px solid #fff;
+	border-radius: 19px 19px 19px 19px;
+	color: #fff;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 1.3em;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL Bloco-MODULOS >>>>>>>*/
+/*<<<<<<<< INICIO Bloco-DEPOIMENTOS >>>>>>>*/
+.depoimentos{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.depoimentos-bloco{
+	width: 50%;
+	height: 50vh;
+	display: flex;
+	position: relative;
+}
+.depoimentos-bloco__caixa {
+	width: 50%;
+	height: 45vh;
+	margin-left: 3%;
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	position: absolute;	
+/*	background-color: green;
+*/}
+.depoimentos-bloco__caixa--titulo{
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 1em;
+	color: #2E3292;
+	margin-bottom: 15px;
+
+}
+.depoimentos-bloco__caixa--texto{
+	font-size: 0.8em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:400;
+	color: #fff;
+*/	margin-bottom: 15px;
+
+}
+.depoimentos-bloco__caixa--legenda{
+font-family: Source Bold;
+	font-size: 0.9em;
+	color: #2E3292;
+}
+.depoimentos-bloco__caixa-botao{
+	margin-top: 10%;
+	align-self: baseline;
+
+}
+.depoimentos-bloco__caixa-botao--editado{
+	display: block;
+	width: 18vw;
+	height: 6vh;
+	background: #F4AC28;
+	border: 3px solid #313B80;
+	border-radius: 19px 19px 19px 19px;
+	font-family: Source Bold;
+	font-size: 1.1em;
+	font-weight: 700;
+	color: #2E3192;
+}
+.guilherme{
+	background-repeat: no-repeat;
+	background: cover; 	
+	background-position: center;
+	background-size: 50vw 50vh;
+	background-image: url(assets/depoGuilherme.jpg);
+}
+.leticia{
+	background-repeat: no-repeat;
+	background: cover; 	
+	background-position: center;
+	background-size: 50vw 50vh;
+	background-image: url(assets/depoLeticia.jpg);
+
+}
+.lucia{
+	background-repeat: no-repeat;
+	background: cover; 	
+	background-position: center;
+	background-size: 50vw 50vh;
+	background-image: url(assets/depoLucia.jpg);
+	background-position: center; 
+
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL Bloco-DEPOIMENTOS >>>>>>>*/
+/*<<<<<<<< INICIO Bloco-APOIAR >>>>>>>*/
+.apoiar{
+	height: 63vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+.apoiarContainer{
+	width: 50vw;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border-width:5px;
+	border-style: solid;
+	border-color: #2E3292;
+	background-color: #2E3292;
+}
+.apoiarContainer__blocoAmarelo{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FCAF17;
+}
+.apoiarContainer__blocoAmarelo--bolinhas{
+width: 110px;
+display: flex;
+justify-content: space-around;
+padding: 2%;
+margin: 2%;
+
+
+
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+.apoiarContainer__blocoAmarelo--bolinhasAzuis{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #2E3292;
+}
+.apoiarContainer__blocoAmarelo--titulo{
+	padding: 10px;
+	font-family: Source Bold;
+	font-size: 1.5em;
+	color: #2E3292;
+}
+.apoiarContainer__blocoAzul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.apoiarContainer__blocoAzul--texto{
+	width: 35vw;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-family: Source Light;
+	font-size: 1.5em;
+	color: #fff;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL Bloco-APOIAR >>>>>>>*/
+/*<<<<<<<< INICIO RODAPE>>>>>>>>>>>>>*/
+.rodape{
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	border: 8px solid #2e3192;
+	border-top: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	position: relative;	
+}
+.rodape__blocoleft{
+	width: 54%;
+	padding: 3%;
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.rodape__blocoleft--texto{
+	width: 80%;
+	height: 20vh;
+	font-size: 120%;
+	color: #2e3192;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+}
+.rodape__blocoleft--botao{
+	width: 18vw;
+	height: 10%;
+	background: #fcae1b;
+	border: 2px solid #2e3192;
+	border-radius: 19px 19px 19px 19px;
+	color: #2e3192;
+	font-size: 1.2em;
+	font-family: Source Bold;
+	font-style: normal;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rodape__blocoleft__container{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.rodape__blocoleft__caixaIcons{
+	width: 45%;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.rodape__blocoleft__caixaIcons--icon{
+	width:20% ;
+}
+.rodape__blocoleft__caixaIcons--adress{
+	padding: 10px;
+	font-size: 2vh;
+	font-family: Source Light;
+	font-style: normal;
+	font-weight: 700;
+	color: #2e3192;
+}
+.rodape__blocoRight{
+	width: 46%;
+	height: 97vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+/*	background: url(assets/trioalunos) bottom no-repeat;
+*/	background-size: 100%;
+}
+.rodape__blocoRight--texto{
+	width: 100%;
+	height:15vh;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 1.2em;
+	font-family: Source Bold;
+	font-style: normal;
+	font-weight: 700;
+}
+.rodape__blocoRight__caixa{
+	width: 80%;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.rodape__blocoRight--icons{
+	width: 25%;
+	left: 25%;
+	padding: 5px;
+}
+.rodape__blocoRight__imagem{
+	width: 100%;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< FINAL INDEX RODAPÉ >>>>>>>*/
+
+/*<<<<<<<< INICIO SOBRE HEADER>>>>>>>>>>>>>*/
+.sobreContainer{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+/*	background-color: blue;
+*/
+}
+.sobreContainer__left{
+	width: 50%;	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+/*	background-color: red;
+*/	justify-content: space-around;
+}
+.sobreContainer__right{
+	width: 50%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+/*	background-color: green;
+*/}
+.sobreContainer__right--caixa{
+	width: 46%;
+	display: flex;
+}
+.sobreContainer__right--caixaIMG{
+	width: 100%;
+	padding: 10px;
+}
+.sobreContainer__right--caixaIMAGEM{
+	width: 92%;
+	padding: 10px;
+
+}
+.sobreContainer__caixa{
+	width: 73%;
+	margin-top: 5%;
+/*	background-color: green;
+*/}
+.sobreContainer__caixa--titulo{
+	font-size: 2em;
+	color: #E84710;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-align: left;
+}
+.sobreContainer__caixa--texto{
+	font-size: 125%;
+	color: #2e3192;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+}
+.sobreContainer__caixa--botao{
+	margin-top: 5%; 
+	display: block;
+	width: 18vw;
+	height: 6vh;
+	background: #F4AC28;
+	border: 3px solid #313B80;
+	border-radius: 19px 19px 19px 19px;
+	font-family: Source Bold;
+	font-size: 1.1em;
+	font-weight: 700;
+	color: #2E3192;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< fIM SOBRE HEADER>>>>>>>>>>>>>*/
+/*<<<<<<<< INICIO DIVISORIA >>>>>>>>>>>>>*/
+.divisoria{
+	width: 100%;
+	height: 25vh;
+	display:flex;
+	align-items: center;
+}
+.divisoria__titulo{
+	width: 100%;
+	font-size: 3em;
+	color: #E84710;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+}
+@media screen and (min-width: 400px) {
+    
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+/*<<<<<<<< fIM DIVISORIA >>>>>>>>>>>>>*/
+/*<<<<<<<< INICIO >>>>>>>>>>>>>*/
+
+.equipeVNW{
+	width: 100%;
+}
+.equipeVNW__barra{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.equipeVNW-container{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: red;
+}
+.equipeVNW__boxFoto{
+	width: 60vw;
+	height:100%;
+/*	background-color: pink;
+*/	overflow: hidden;
+    position: relative;}
+.equipeVNW__boxFoto--img{
+	width: 100%;
+	position: absolute;
+}
+.equipeVNW__boxtexto--descricao{
+	display: none;
+	width: 40%;  
+}
+.equipeVNW__boxtexto--colaboratorLeft{
+	width: 40%;  	
+}
+.equipeVNW__boxtexto--colaboratorLeft{
+	width: 40%;}
+
+.botao:checked ~ .equipeVNW__boxtexto--colaborator {
+  display: none;
+}
+.botao:checked ~ .equipeVNW__boxtexto--descricao {
+  display: block;
+}
+.equipeVNW__boxtexto__boxdescricao--texto{
+	font-size: 12px;
+}
+.barraAmarela{
+	background-color: #FCAF17;
+}
+.barraAzul{
+	background-color: #2E3292;
+}
+.barraLaranja{
+	background-color: #E84710;
+}
+@media screen and (max-width: 400px) {
+    .equipeVNW__boxFoto{
+	width: 60vw;
+	height:100%;
+/*	background-color: pink;
+*/	overflow: hidden;
+    position: relative;}
+	.equipeVNW__boxFoto--img{
+	width: 100%;
+	position: absolute;
+	}
+}
+
+@media screen and (min-width: 800px) {
+    .equipeVNW__boxFoto{
+	width: 25vw;
+	height:100%;
+/*	background-color: pink;
+*/	overflow: hidden;
+    position: relative;}
+	.equipeVNW__boxFoto--img{
+	width: 100%;
+	position: absolute;
+	}
+}
