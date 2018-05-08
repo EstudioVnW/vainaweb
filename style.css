@@ -302,8 +302,8 @@
 	height: 45rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+/*	justify-content: center;
+*/	align-items: center;
 	background-color: #E84710;
 }
 .bloco-polos__titulo{
@@ -358,6 +358,29 @@
 	font-style:normal;
 	font-weight:400;	
 	color: #2E3292;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.bloco-polos{
+	height: 60rem;
+	}
+	.bloco-polos__titulo{
+	margin-top: 5%;
+	font-size: 2.3em;
+	}
+	.bloco-polos__caixa{
+	width: 90%;
+	margin: 5%;
+	}
+	.bloco-polos__caixa--titulo{
+	font-size: 1.5em;
+	}
+	.bloco-polos__caixa--ONG{
+	font-size: 1em;
+	}
+	.bloco-polos__caixa--texto{
+	font-size: 0.8em;
+	}
+}
 }
 /*<<<<<<<< FINAL Bloco-POLOS >>>>>>>*/
 /*<<<<<<<< INICIO Bloco-MODULOS >>>>>>>*/
@@ -430,6 +453,16 @@
 	font-style:normal;
 	font-weight:700;
 	font-size: 1.3em;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.bloco-modulos__titulo{
+	margin-top: 5%;
+	font-size: 2.3em;
+	}
+	.bloco-modulos__caixa{
+	width: 90%;}
+	.bloco-modulos__caixa{
+	width: 50%;}
 }
 /*<<<<<<<< FINAL Bloco-MODULOS >>>>>>>*/
 /*<<<<<<<< INICIO Bloco-DEPOIMENTOS >>>>>>>*/
