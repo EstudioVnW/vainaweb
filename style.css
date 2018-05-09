@@ -63,6 +63,34 @@
 	color: #2E3192;
 	text-decoration: none;
 }
+@media (max-width:320px){
+	.menu{
+		width: 100%;
+		display: flex;
+	}
+		.menu__itens{
+		display: none;
+	}
+	.menu__logo1{
+		height: 165%;
+		margin-top: 15vh;
+		margin-left: 25vw;
+	}
+}
+@media (min-width:321px) and (max-width:480px){
+	.menu{
+		width: 100%;
+		display: flex;
+	}
+		.menu__itens{
+		display: none;
+	}
+	.menu__logo1{
+		height: 165%;
+		margin-top: 15vh;
+		margin-left: 25vw;
+	}
+}
 /*<<<<<<<<FINAL MENU principal >>>>>>>>*/
 /*<<<<<<<< INICIO HEADER >>>>>>>>*/
 .home{
@@ -85,19 +113,8 @@
 	color: #fff;
 	font-size: 2.625em;
 }
-@media screen and (max-width:320px){
-	.menu{
-		width: 100%;
-		display: flex;
-	}
-		.menu__itens{
-		display: none;
-	}
-	.menu__logo1{
-		height: 165%;
-		margin-top: 15vh;
-		margin-left: 25vw;
-	}
+@media (max-width:320px){
+	
 	.home{
 		width: 100%;	
 		height: 50vh;
@@ -110,32 +127,10 @@
 		margin-top: 10%;
 		margin-left: 50%;
 	}
-	.bloco-mitchel__imagem{
-	width: 90%;
-	}
-	.bloco-mitchel__citacao{
-	font-size: 0.7em;
-	}
-	.bloco-mitchel__sobre--nome{
-	font-size: 0.5em;
-	}
-	.bloco-mitchel__sobre--cargo{
-	font-size: 0.5em;
-	}
 }
+
 @media (min-width:321px) and (max-width:480px){
-	.menu{
-		width: 100%;
-		display: flex;
-	}
-		.menu__itens{
-		display: none;
-	}
-	.menu__logo1{
-		height: 165%;
-		margin-top: 15vh;
-		margin-left: 25vw;
-	}
+	
 	.home{
 	/*	width: 565px;*/	
 		height: 50vh;
@@ -148,20 +143,9 @@
 		margin-top: 10%;
 		margin-left: 50%;
 	}
-	.bloco-mitchel__imagem{
-	width: 55%;
-	margin: 3%
-	}
-	.bloco-mitchel__citacao{
-	font-size: 0.7em;
-	}
-	.bloco-mitchel__sobre--nome{
-	font-size: 0.5em;
-	}
-	.bloco-mitchel__sobre--cargo{
-	font-size: 0.5em;
-	}
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
 @media (min-width:481px) and (max-width:640px){}
 @media (min-width:641px) and (max-width:960px){}
 @media (min-width:961px) and (max-width:1024px){}
@@ -196,6 +180,11 @@
 	font-weight: 700;
 	text-decoration: none;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<<FINAL MENU secundario >>>>>>>>*/
 /*<<<<<<<< INICIO Bloco-Michel >>>>>>>*/
 .bloco-mitchel{
@@ -240,6 +229,24 @@
 	text-align: center;
 	color: #FCAF17;
 }
+@media (max-width:320px){
+	.bloco-mitchel__imagem{
+	width: 60%;
+	}
+	.bloco-mitchel__citacao{
+	font-size: 0.7em;
+	}
+	.bloco-mitchel__sobre--nome{
+	font-size: 0.5em;
+	}
+	.bloco-mitchel__sobre--cargo{
+	font-size: 0.5em;
+	}
+}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< FINAL Bloco-Michel >>>>>>>*/
 /*<<<<<<<< INICIO Bloco-PORQUE >>>>>>>*/
 .bloco-porque{
@@ -300,6 +307,11 @@
 	font-weight:400;	
 	color: #2E3292;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< FINAL Bloco-PORQUE >>>>>>>*/
 /*<<<<<<<< INICIO Bloco-POLOS >>>>>>>*/
 .bloco-polos{
@@ -362,6 +374,11 @@
 	font-weight:400;	
 	color: #2E3292;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< FINAL Bloco-POLOS >>>>>>>*/
 /*<<<<<<<< INICIO Bloco-MODULOS >>>>>>>*/
 .bloco-modulos{
@@ -433,6 +450,11 @@
 	font-weight:700;
 	font-size: 1.3em;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< FINAL Bloco-MODULOS >>>>>>>*/
 /*<<<<<<<< INICIO Bloco-DEPOIMENTOS >>>>>>>*/
 .depoimentos{
@@ -522,6 +544,11 @@
 	background-position: center; 
 
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< FINAL Bloco-DEPOIMENTOS >>>>>>>*/
 /*<<<<<<<< INICIO Bloco-APOIAR >>>>>>>*/
 .apoiar{
@@ -584,6 +611,11 @@
 	font-size: 1.5em;
 	color: #fff;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< FINAL Bloco-APOIAR >>>>>>>*/
 /*<<<<<<<< INICIO RODAPE>>>>>>>>>>>>>*/
 .rodape{
@@ -692,6 +724,11 @@
 .rodape__blocoRight__imagem{
 	width: 100%;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< FINAL INDEX RODAPÉ >>>>>>>*/
 /*<<<<<<<< INICIO SOBRE HEADER>>>>>>>>>>>>>*/
 .sobreContainer{
@@ -763,6 +800,11 @@
 	font-weight: 700;
 	color: #2E3192;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< fIM SOBRE HEADER>>>>>>>>>>>>>*/
 /*<<<<<<<< INICIO DIVISORIA >>>>>>>>>>>>>*/
 .divisoria{
@@ -780,6 +822,11 @@
 	font-weight: 700;
 	text-align: center;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< fIM DIVISORIA >>>>>>>>>>>>>*/
 /*<<<<<<<< INICIO >>>>>>>>>>>>>*/
 
@@ -945,7 +992,11 @@ a{
 	font-weight:700;
 	font-size: 1.3em;
 }
-
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
 /*<<<<<<<< INICIO Bloco-MODULOS 1 >>>>>>>*/
 
 .modulo__titulo{
@@ -1093,3 +1144,8 @@ a{
 .telas{
 	width: 350px;
 }
+@media (max-width:320px){}
+@media (min-width:321px) and (max-width:480px){}
+@media (min-width:481px) and (max-width:640px){}
+@media (min-width:641px) and (max-width:960px){}
+@media (min-width:961px) and (max-width:1024px){}
