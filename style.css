@@ -86,9 +86,6 @@
 	font-size: 2.625em;
 }
 @media (max-width:320px){
-	body{
-		width:100%;
-	}
 	.menu{
 		width: 100%;
 		display: flex;
@@ -112,6 +109,19 @@
 		font-size: 1em;
 		margin-top: 10%;
 		margin-left: 50%;
+	}
+	.bloco-mitchel__imagem{
+	width: 55%;
+	margin: 3%
+	}
+	.bloco-mitchel__citacao{
+	font-size: 0.7em;
+	}
+	.bloco-mitchel__sobre--nome{
+	font-size: 0.5em;
+	}
+	.bloco-mitchel__sobre--cargo{
+	font-size: 0.5em;
 	}
 }
 @media (min-width:321px) and (max-width:480px){
@@ -138,6 +148,19 @@
 		font-size: 1em;
 		margin-top: 10%;
 		margin-left: 50%;
+	}
+		.bloco-mitchel__imagem{
+	width: 55%;
+	margin: 3%
+	}
+	.bloco-mitchel__citacao{
+	font-size: 0.7em;
+	}
+	.bloco-mitchel__sobre--nome{
+	font-size: 0.5em;
+	}
+	.bloco-mitchel__sobre--cargo{
+	font-size: 0.5em;
 	}
 }
 @media (min-width:481px) and (max-width:640px){}
