@@ -85,7 +85,7 @@
 	color: #fff;
 	font-size: 2.625em;
 }
-@media (max-width:320px){
+@media screen and (max-width:320px){
 	.menu{
 		width: 100%;
 		display: flex;
@@ -111,8 +111,7 @@
 		margin-left: 50%;
 	}
 	.bloco-mitchel__imagem{
-	width: 55%;
-	margin: 3%
+	width: 90%;
 	}
 	.bloco-mitchel__citacao{
 	font-size: 0.7em;
@@ -149,7 +148,7 @@
 		margin-top: 10%;
 		margin-left: 50%;
 	}
-		.bloco-mitchel__imagem{
+	.bloco-mitchel__imagem{
 	width: 55%;
 	margin: 3%
 	}
@@ -863,4 +862,234 @@
 	width: 100%;
 	position: absolute;
 	}
+}
+
+/*<<<<<<<< INICIO Bloco-MODULOS >>>>>>>*/
+.menu__logo-micro{
+	height: 8vh;
+	margin-left: 20px;	
+}
+.bloco-componente-modulos{
+	width: 100%;
+	height: 38rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #E84710;
+	background-image: none;
+}
+.bloco-componente-modulos__titulo{
+	font-size: 3.5em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #fff;
+	border-color: 1px;
+	text-align: center;
+}
+.bloco-componente-modulos__container{
+	width: 75%;
+	height: 65vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.bloco-componente-modulos__caixa{
+	width: 15rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+.bloco-componente-modulos__caixa--subtitulo{
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+}
+a{
+	width: 90%;
+}
+.bloco-componente-modulos__caixa--img{
+	width: 100%;
+	margin: 0;
+}
+.bloco-componente-modulos__caixa--legenda{
+	text-align: center;
+	font-size: 1.3em;
+	font-family: source Bold;
+	color: #fff;
+}
+.bloco-componente-modulos__caixa--paragrafo{
+	text-align: center;
+	font-size: 1.1em;
+	font-family: source Light;
+	color: #fff;
+}
+.bloco-componente-modulos__button{
+	display: block;
+	width: 18vw;
+	height: 6vh;
+	background: #313B80;
+	border: 3px solid #fff;
+	border-radius: 19px 19px 19px 19px;
+	color: #fff;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 1.3em;
+}
+
+/*<<<<<<<< INICIO Bloco-MODULOS 1 >>>>>>>*/
+
+.modulo__titulo{
+	font-size: 3em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #E84710;
+	border-color: 1px;
+	padding-top:20px;
+	text-align: center;
+}
+.modulo_titulo_descricao{
+	font-size: 1.3em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #E84710;
+	border-color: 1px;
+	text-align: center;
+}
+.modulo_submenu{
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+.modulo_submenu_img{	
+	width: 15%;
+	margin: 3%;
+}
+.modulo_submenu_img_descricao{
+	font-size: 0.9em;
+    color: #E84818;
+    text-align: center;
+    font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.modulo_submenus{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+}
+.modulo_submenu_descricao{
+	font-weight: bold;
+}
+.modulo_caixas{
+	width: 100%;
+	min-height: 60vh;
+	display: flex;
+	flex-direction: row;
+/*	background-color: #ED1164;*/
+	justify-content: space-between;
+	padding: 2% 10%;
+}
+.modulo_caixa-esquerda{
+	width: 30%;
+	/*height: 80%;*/
+	display: flex;
+	/*background-color: yellow;*/
+	flex-direction: column;
+	align-items: center;
+	padding:2% 0 0 0;
+
+}
+.modulo_img{
+	width: 70%;
+	margin: 4%;
+}
+.modulo_botao-inscricao{
+	background-color: #FCAF17;
+	border-radius: 11px;
+	width: 12vw;
+	height: 6vh;
+	border: 2.3px solid #2E3192; 
+	margin: 3%;
+
+}
+.modulo_botao-inscricao-descricao{
+	text-align: center;
+    font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	color: #2E3192;
+	font-size: 1.2em;
+}
+.modulo_caixa-direita{
+	width: 50%;
+
+}
+.modulo_caixa-direita-titulo{
+	margin: 5% 0;
+	font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+	color: #E84710;
+	font-size: 2em;
+}
+
+.modulo_caixa-direita-textual{
+	width: 100%;
+	color: #2C398C;
+	font-size: 1.3em;
+	font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.modulo-telas{
+	width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    
+}
+
+.modulo-tela-caixa{
+	width: 100%
+	padding:10px 0 0 0;
+	font-size: 1em;
+    color: #2E3292;
+    text-align: center;
+    font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+}
+
+.modulo-tela-descricao{
+	font-weight: bold;
+}
+
+.telas{
+	width: 350px;
 }
