@@ -848,7 +848,48 @@
 .rodape__blocoRight__imagem{
 	width: 100%;
 }
-@media (max-width:320px){}
+@media (max-width:320px){
+	.rodape{
+	height: 200vh;
+	justify-content: flex-start;
+	flex-direction: column;
+	}
+	.rodape__blocoleft{
+	width: 100%;
+	height: 65vh;
+
+	}
+	.rodape__blocoleft--texto{
+	width: 100%;
+	height: 26vh;
+	margin-bottom: 10%;
+	font-size: 1em;
+	text-align: justify-all;
+	}
+	.rodape__blocoleft--botao{
+	width: 65vw;
+	}
+	.rodape__blocoleft__caixaIcons{
+	width: 60%;
+	margin: 8px;
+	}
+	.rodape__blocoleft__caixaIcons--adress{
+	padding: 10px;
+	font-size: 0.9em;
+	}
+	.rodape__blocoRight{
+	width: 100%;
+	height: 97vh;
+	margin-top: 40%;
+	align-items: center;
+	}
+	.rodape__blocoRight--icons{
+	width: 40%;
+	left: 40%;
+	padding: 5px;
+	}
+
+}
 @media (min-width:321px) and (max-width:480px){}
 @media (min-width:481px) and (max-width:640px){}
 @media (min-width:641px) and (max-width:960px){}
