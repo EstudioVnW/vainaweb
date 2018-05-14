@@ -1,0 +1,53 @@
+@font-face {
+	font-family: Ministry Heavy;
+	src: url(fonts/Ministry Heavy.ttf);
+}
+@font-face {
+	font-family: Source Black;
+	src: url(fonts/SourceCodePro-Black.ttf);
+}
+
+@font-face {
+	font-family: Source Bold;
+	src: url(fonts/SourceCodePro-Bold.ttf);
+}
+
+@font-face {
+	font-family: Source Light;
+	src: url(fonts/SourceCodePro-Light.ttf);
+}
+
+@font-face {
+	font-family: Source Medium;
+	src: url(fonts/SourceCodePro-Medium.ttf);
+}
+
+*,
+*:after,
+*:before{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+	max-width: 100%;
+}
