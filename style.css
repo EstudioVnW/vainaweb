@@ -101,6 +101,7 @@
 /*>>>>>>>>>>>>>>>>home > blocoMitchel>>>>>>>>>>>*/
 
 .bloco-mitchel{
+	width: 100vw;
 	max-height:80vh;
 	display: flex;
 	justify-content: center;
@@ -160,7 +161,7 @@
 }
 /*>>>>>>>bloco-Mitchel > bloco-Porque>>>>>>>>>>>>>>>*/
 .bloco-porque{
-	width: 100%;
+	width: 100vw;
 	height: 30rem;
 	display: flex;
 	flex-direction: column;
@@ -236,7 +237,7 @@
 }
 /*>>>>>>>>>>>>>bloco-porque > bloco-polos >>>>>>>>>>*/
 .bloco-polos{
-	width: 100%;
+	width: 100vw;
 	height: 45rem;
 	display: flex;
 	flex-direction: column;
@@ -315,7 +316,7 @@
 }
 /*>>>>>>>>>>>>>>fim bloco-polos > inicio bloco-modulos >>>>>>>>>>>*/
 .bloco-modulos{
-	width: 100%;
+	width: 100vw;
 	height: 38rem;
 	display: flex;
 	flex-direction: column;
@@ -400,5 +401,133 @@
 	.bloco-modulos__button{
 	width: 60vw;
 	height: 6vh;
+	}
+}
+/*>>>>>>>>>>>>>>fim bloco-modulos > inicio bloco-depoimentos >>>>>>>>>>>*/
+.depoimentos{
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.depoimentos-bloco{
+	width: 33.3vw;
+	min-width: 200px;	
+	height: 58vh;
+	display: flex;
+}
+.depoimentos-bloco__caixa {
+	width: 18vw;
+	min-height: 55vh;
+	margin-left: 3%;
+	margin-top: 3%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.depoimentos-bloco__caixa--titulo{
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 1em;
+	color: #2E3292;
+	margin-bottom: 15px;
+}
+.depoimentos-bloco__caixa--texto{
+	font-size: 1em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:400;
+	color: #fff;
+	margin-bottom: 15px;
+
+}
+.depoimentos-bloco__caixa--legenda{
+	font-family: Source Bold;
+	font-size: 1em;
+	color: #2E3292;
+}
+.depoimentos-bloco__caixa-botao{
+	margin-top: 3px;
+	align-self: baseline;
+}
+.depoimentos-bloco__caixa-botao--editado{
+	display: block;
+	width: 18vw;
+	height: 6vh;
+	background: #F4AC28;
+	border: 3px solid #313B80;
+	border-radius: 19px 19px 19px 19px;
+	font-family: Source Bold;
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #2E3192;
+}
+.guilherme{
+	background-repeat: no-repeat;
+	background: cover; 	
+	background-position: center;
+	background-size: 55vw;
+	background-image: url(assets/depoGuilherme.jpg) ;
+}
+.leticia{
+	background-repeat: no-repeat;
+	background: cover; 	
+	background-position: center;
+	background-size: 55vw;
+	background-image: url(assets/depoLeticia.jpg);
+
+}
+.lucia{
+	background-repeat: no-repeat;
+	background: cover; 	
+	background-position: right;
+	background-size: 55vw;
+	background-image: url(assets/depoLucia.jpg);
+	background-position: center; 
+
+}
+@media(max-width: 48em){
+	.depoimentos{
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+	}
+	.depoimentos-bloco{
+	width: 100vw;	
+	height: 43vh;
+	display: flex;
+	}
+	.depoimentos-bloco__caixa {
+	width: 53vw;
+	max-height: 70%;
+	}
+	.guilherme{
+	background-size: 168%;
+	}
+	.depoimentos-bloco__caixa--titulo{
+	margin-bottom: 2%;
+	}
+	.depoimentos-bloco__caixa--texto{
+	margin-bottom: 2%;
+	}
+	.depoimentos-bloco__caixa-botao{
+	margin-top: 23%;
+	}
+	.depoimentos-bloco__caixa-botao--editado{
+	width: 50vw;
+	font-size: 2em;
+	}
+	.guilherme{
+	background-size: 168%;
+	}
+	.leticia{
+	background-size: 168%;
+	}
+	.lucia{
+	background-size: 168%;
 	}
 }
