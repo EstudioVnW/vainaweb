@@ -53,7 +53,8 @@
 		display: none;
 	}
 }
-
+/*>>>>>>>>>>>>>>>>>>>menu > home>>>>>>>>>>>>>>>>>>>
+*/
 .home{
 	width: 100vw;
 	height: 100vh;
@@ -62,6 +63,7 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	margin-top: 70px;
 }
 
 @media(max-width: 48rem){
@@ -86,7 +88,7 @@
 .home__caixa--texto{
 	font-family: Source Black;
 	color: #fff;
-	font-size: 2.625em;
+	font-size: 2em;
 }
 
 @media(max-width: 48rem) {
@@ -94,5 +96,309 @@
 		font-size: 1em;
 		margin-top: 10%;
 		margin-left: 50%;
+	}
+}
+/*>>>>>>>>>>>>>>>>home > blocoMitchel>>>>>>>>>>>*/
+
+.bloco-mitchel{
+	max-height:80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+.bloco-mitchel__imagem{
+	width: 25vw;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+.bloco-mitchel__caixa{
+	width: 20rem;
+
+}
+.bloco-mitchel__citacao{
+	width: 60%;
+	font-size: 1.2em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;
+	color: #2E3192;
+
+}
+.bloco-mitchel__sobre{
+	width: 15vw;
+}
+
+.bloco-mitchel__sobre--nome{
+	font-family: Source Bold;
+	font-size: 1em;
+	text-align: center;
+	color: #FCAF17;
+	background-color: #E84710;
+}
+.bloco-mitchel__sobre--cargo{
+	font-family: Source Bold;
+	font-size: 1em;
+	text-align: center;
+	color: #FCAF17;
+}
+@media(max-width: 48rem) {
+	.bloco-mitchel__imagem{
+	margin-left:1%;
+	margin-right: 5%;
+	width: 40vw;
+	}
+	.bloco-mitchel__citacao{
+	font-size: 0.7em;
+	}
+	.bloco-mitchel__sobre--nome{
+	font-size: 0.5em;
+	}
+	.bloco-mitchel__sobre--cargo{
+	font-size: 0.5em;
+	}
+}
+/*>>>>>>>bloco-Mitchel > bloco-Porque>>>>>>>>>>>>>>>*/
+.bloco-porque{
+	width: 100%;
+	height: 30rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FCAF17;
+}
+
+.bloco-porque__titulo{
+	width: 100vw;
+	font-size: 3.5em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+	color: #2C398C;
+	border-color: 1px;
+	text-align: center;
+}
+.bloco-porque__caixa{
+	width: 100vw;
+	height: 70vh;
+	padding: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.bloco-porque__caixa--itens{
+	width: 38%;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bloco-porque__caixa--icone{
+	width: 20%;
+	margin-right: 5%;
+
+}
+.bloco-porque__caixa--texto{
+
+}
+.bloco-porque__caixa--subtitulo{
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:700;
+	color: #2E3292;
+}
+.bloco-porque__caixa--paragrafo{
+	font-size: 1em;
+	font-family:"ministry";
+	font-style:normal;
+	font-weight:400;	
+	color: #2E3292;
+}
+@media(max-width: 48rem){
+	.bloco-porque{
+	width: 100%;
+	height: 60rem;
+	}
+	.bloco-porque__titulo{
+	width: 100%;
+	font-size: 1.8em;
+	padding-bottom: 20px;
+	}
+	.bloco-porque__caixa{
+	height: 90%;
+	}
+	.bloco-porque__caixa--itens{
+	width: 90%;
+	height: 30vh;}
+}
+/*>>>>>>>>>>>>>bloco-porque > bloco-polos >>>>>>>>>>*/
+.bloco-polos{
+	width: 100%;
+	height: 45rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #E84710;
+}
+.bloco-polos__titulo{
+	margin-bottom: 30px;
+	font-size: 3.5em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #2C398C;
+	border-color: 1px;
+	text-align: center;
+}
+.bloco-polos__container{
+	width: 95%;
+	height: 80vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.bloco-polos__caixa{
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.bloco-polos__caixa--img{
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+.bloco-polos__caixa--titulo{
+	width: 100%;
+	font-size: 2em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #FCAF17;
+}
+.bloco-polos__caixa--ONG{
+	margin-bottom: 2%;
+	font-size: 2em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #2E3292;
+}
+.bloco-polos__caixa--texto{
+	font-size: 1.3em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:400;	
+	color: #2E3292;
+}
+@media(max-width: 48rem){
+	.bloco-polos{
+	width: 100vw;
+	height: 200vh;
+	}
+	.bloco-polos__titulo{
+	margin-bottom: 30px;
+	font-size: 2em;
+	padding-top: 10px;
+	}
+	.bloco-polos__caixa{
+	width: 90vw;
+	margin-left: 12%;
+	}
+	.bloco-polos__caixa--img{
+	width: 75vw;
+	}
+}
+/*>>>>>>>>>>>>>>fim bloco-polos > inicio bloco-modulos >>>>>>>>>>>*/
+.bloco-modulos{
+	width: 100%;
+	height: 38rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(assets/ALUNOS.jpg);
+}
+.bloco-modulos__titulo{
+	font-size: 3.5em;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	color: #fff;
+	border-color: 1px;
+	text-align: center;
+}
+.bloco-modulos__container{
+	width: 75%;
+	height: 65vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.bloco-modulos__caixa{
+	width: 15rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+.bloco-modulos__caixa--subtitulo{
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+}
+.bloco-modulos__caixa--img{
+	width: 90%;
+}
+.bloco-modulos__caixa--legenda{
+	text-align: center;
+	font-size: 1.3em;
+	font-family: source Bold;
+	color: #fff;
+}
+.bloco-modulos__caixa--paragrafo{
+	text-align: center;
+	font-size: 1.1em;
+	font-family: source Light;
+	color: #fff;
+}
+.bloco-modulos__button{
+	width: 18vw;
+	height: 6vh;
+	background: #313B80;
+	border: 3px solid #fff;
+	border-radius: 19px 19px 19px 19px;
+	color: #fff;
+	font-family:ministry, sans-serif;
+	font-style:normal;
+	font-weight:700;
+	font-size: 1.3em;
+}
+@media(max-width: 60rem){
+	.bloco-modulos{
+	width: 100%;
+	height: 85rem;
+	justify-content: flex-start;
+	}
+	.bloco-modulos__container{
+	width: 42vw;
+	height: 20rem;
+	}
+	.bloco-modulos__caixa{
+	width: 70vw;
+	margin: 10px;
+	padding: 10px;
+	}
+	.bloco-modulos__button{
+	width: 60vw;
+	height: 6vh;
 	}
 }
