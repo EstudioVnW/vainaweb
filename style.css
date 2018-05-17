@@ -35,7 +35,7 @@
 }
 
 .menu__caixa--itens{
-	width: 50vw;
+	width: 70vw;
 	display: flex;
 	justify-content: space-between;
 }
@@ -247,7 +247,7 @@
 @media(max-width: 48rem){
 	.bloco-polos{
 	width: 100vw;
-	height: 150vh;
+	height: 170vh;
 	}
 }
 .bloco-polos__titulo{
@@ -259,6 +259,12 @@
 	color: #2C398C;
 	border-color: 1px;
 	text-align: center;
+}
+@media(max-width: 48rem){
+	.bloco-polos__titulo{
+	margin-bottom: 30px;
+	font-size: 2.5em;
+	}
 }
 .bloco-polos__container{
 	width: 95%;
@@ -303,13 +309,6 @@
 	font-weight:700;
 	color: #FCAF17;
 }
-@media(max-width: 48rem){
-	.bloco-polos__titulo{
-	margin-bottom: 30px;
-	font-size: 2.5em;
-/*	padding-top: 10px;
-*/	}
-}
 .bloco-polos__caixa--ONG{
 	margin-bottom: 2%;
 	font-size: 2em;
@@ -330,11 +329,19 @@
 .bloco-modulos{
 	width: 100vw;
 	height: 38rem;
+	padding-bottom: 5%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-image: url(assets/ALUNOS.jpg);
+}
+@media(max-width: 48rem){
+	.bloco-modulos{
+	width: 100vw;
+	height: 85rem;
+
+	}
 }
 .bloco-modulos__titulo{
 	font-size: 3.5em;
@@ -345,6 +352,11 @@
 	border-color: 1px;
 	text-align: center;
 }
+@media(max-width: 48rem){
+	.bloco-modulos__titulo{
+	font-size: 2.5em;
+	}
+}
 .bloco-modulos__container{
 	width: 75%;
 	height: 65vh;
@@ -353,12 +365,25 @@
 	justify-content: space-between;
 	align-items: center;
 }
+@media(max-width: 48rem){
+	.bloco-modulos__container{
+	width: 80vw;
+	height: 100rem;
+	}
+}
 .bloco-modulos__caixa{
 	width: 15rem;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: center;
+}
+@media(max-width: 48rem){
+	.bloco-modulos__caixa{
+	width: 70vw;
+	margin: 10px;
+	padding: 10px;
+	}
 }
 .bloco-modulos__caixa--subtitulo{
 	font-family:ministry, sans-serif;
@@ -369,7 +394,12 @@
 	color: #fff;
 }
 .bloco-modulos__caixa--img{
-	width: 90%;
+	width: 90vw;
+}
+@media(max-width: 48rem){
+	.bloco-modulos__caixa--img{
+	width: 33vw;
+	}
 }
 .bloco-modulos__caixa--legenda{
 	text-align: center;
@@ -395,24 +425,11 @@
 	font-weight:700;
 	font-size: 1.3em;
 }
-@media(max-width: 60rem){
-	.bloco-modulos{
-	width: 100%;
-	height: 85rem;
-	justify-content: flex-start;
-	}
-	.bloco-modulos__container{
-	width: 42vw;
-	height: 20rem;
-	}
-	.bloco-modulos__caixa{
-	width: 70vw;
-	margin: 10px;
-	padding: 10px;
-	}
+@media(max-width: 48rem){
 	.bloco-modulos__button{
-	width: 60vw;
+	width: 55vw;
 	height: 6vh;
+	font-size: 0.9em;
 	}
 }
 /*>>>>>>>>>>>>>>fim bloco-modulos > inicio bloco-depoimentos >>>>>>>>>>>*/
@@ -423,19 +440,39 @@
 	flex-direction: row;
 	align-items: flex-start;
 }
+@media(max-width: 48rem){
+.depoimentos{
+	width: 100vw;
+	flex-direction: column;
+	}
+}
 .depoimentos-bloco{
 	width: 33.3vw;	
-	height: 60vh;
+	height: 40vh;
 	display: flex;
+}
+@media(max-width: 48rem){
+	.depoimentos-bloco{
+	width: 100vw;	
+	height: 80vh;
+	display: flex;
+	}
 }
 .depoimentos-bloco__caixa {
 	width: 18vw;
-	height: 55vh;
+	height: 30vh;
 	margin-left: 3%;
 	margin-top: 3%;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+}
+@media(max-width: 48rem){
+	.depoimentos-bloco__caixa {
+	width: 60%;
+	height: 90%;
+/*	background-color: green;
+*/	}
 }
 .depoimentos-bloco__caixa--titulo{
 	font-family:ministry, sans-serif;
@@ -445,6 +482,11 @@
 	color: #2E3292;
 	margin-bottom: 15px;
 }
+@media(max-width: 48rem){
+	.depoimentos-bloco__caixa--titulo{
+	font-size: 3vw;
+	}
+}
 .depoimentos-bloco__caixa--texto{
 	font-size: 0.8em;
 	font-family:ministry, sans-serif;
@@ -452,12 +494,21 @@
 	font-weight:400;
 	color: #fff;
 	margin-bottom: 15px;
-
+}
+@media(max-width: 48rem){
+	.depoimentos-bloco__caixa--texto{
+	font-size: 3vw;
+	}
 }
 .depoimentos-bloco__caixa--legenda{
 	font-family: Source Bold;
 	font-size: 0.9em;
 	color: #2E3292;
+}
+@media(max-width: 48rem){
+	.depoimentos-bloco__caixa--legenda{
+	font-size: 3vw;
+	}
 }
 .depoimentos-bloco__caixa-botao{
 	margin-top: 10%;
@@ -475,12 +526,26 @@
 	font-weight: 700;
 	color: #2E3192;
 }
+@media(max-width: 48rem){
+	.depoimentos-bloco__caixa-botao--editado{
+	display: block;
+	width: 39vw;
+	height: 6vh;
+	font-size: 3vw;
+	}
+}
 .guilherme{
 	background-repeat: no-repeat;
 	background: cover; 	
 	background-position: center;
-	background-size: 55vw;
-	background-image: url(assets/depoGuilherme.jpg) ;
+	background-size: 35vw;
+	background-image: url(assets/depoGuilherme.jpg);
+}
+@media(max-width: 48rem){
+	.guilherme{
+	background-size: 155vw;
+	background-image: url(assets/depoGuilherme.jpg);
+	}
 }
 .leticia{
 	background-repeat: no-repeat;
@@ -488,8 +553,8 @@
 	background-position: center;
 	background-size: 52vw;
 	background-image: url(assets/depoLeticia.jpg);
-
 }
+@media(max-width: 48rem){}
 .lucia{
 	background-repeat: no-repeat;
 	background: cover; 	
@@ -497,5 +562,5 @@
 	background-size: 55vw;
 	background-image: url(assets/depoLucia.jpg);
 	background-position: center; 
-
 }
+@media(max-width: 48rem){}
