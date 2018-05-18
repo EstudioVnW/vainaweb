@@ -24,7 +24,7 @@
 	position: absolute;
 	top: 5%;
 	left: 5%;
-	max-width: 20vw
+	max-width: 17vw
 }
 
 @media(max-width: 48rem){
@@ -34,13 +34,13 @@
 }
 
 .menu__caixa--itens{
-	width: 70vw;
+	width: 75vw;
 	display: flex;
 	justify-content: space-between;
 }
 
 .menu__itens{
-	padding-right: 1.3vw;
+	padding-right: 1rem;
 	font-family: Source Bold;
 	font-weight: 700;
 	color: #2E3192;
@@ -52,10 +52,9 @@
 		display: none;
 	}
 }
-/*>>>>>>>>>>>>>>>>>>>menu > home>>>>>>>>>>>>>>>>>>>
+/*>>>>>>>>>>>>>>>>>>>menu > home>>>>>>>>>>>>>>>>>>> */
 
 .home{
-	width: 100vw;
 	height: 100vh;
 	background: url(assets/homeFundo.jpg) top;
 	background-size: cover;
@@ -83,7 +82,7 @@
 		width: 100vw;
 	}
 }
-/*
+
 .home__caixa--texto{
 	font-family: Source Black;
 	color: #fff;
@@ -98,10 +97,9 @@
 	}
 }
 /*>>>>>>>>>>>>>>>>home > blocoMitchel>>>>>>>>>>> */
-/*
+
 .bloco-mitchel{
-	width: 100vw;
-	max-height:80vh;
+	min-height: 60vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -109,19 +107,15 @@
 }
 .bloco-mitchel__imagem{
 	width: 25vw;
-	margin-left: 20%;
-	margin-right: 5%;
+	margin:0 1rem;
 }
 @media(max-width: 48rem) {
 	.bloco-mitchel__imagem{
-	margin-left:1%;
-	margin-right: 5%;
-	width: 40vw;
+		width: 90vw;
 	}
 }
 .bloco-mitchel__caixa{
 	width: 20rem;
-
 }
 .bloco-mitchel__citacao{
 	width: 60%;
@@ -134,10 +128,10 @@
 
 @media(max-width: 48rem) {
 	.bloco-mitchel__citacao{
-	font-size: 0.7em;
+		font-size: 0.7em;
 	}
 }
-/*
+
 .bloco-mitchel__sobre{
 	width: 15vw;
 }
@@ -169,17 +163,22 @@
 	}
 }
 /*>>>>>>>bloco-Mitchel > bloco-Porque>>>>>>>>>>>>>>>
-.bloco-porque{
-	width: 100vw;
-	height: 40rem;
+*/.bloco-porque{
+	min-height: 30rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: flex-start;
 	background-color: #FCAF17;
+}
+@media(max-width: 48rem){
+	.bloco-porque{
+	width: 100%;
+	min-height: 60rem;
+	}
 }
 
 .bloco-porque__titulo{
-	width: 100vw;
 	font-size: 3.5em;
 	font-family:"ministry";
 	font-style:normal;
@@ -188,21 +187,31 @@
 	border-color: 1px;
 	text-align: center;
 }
+@media(max-width: 48rem){
+	.bloco-porque__titulo{
+	width: 100%;
+	font-size: 1.8em;
+	padding-bottom: 20px;
+	}
+}
 .bloco-porque__caixa{
-	width: 100vw;
-	height: 70vh;
+	min-height: 85vh;
 	padding: 2%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	
 }
 .bloco-porque__caixa--itens{
 	width: 38%;
-	height: 30vh;
+	min-height: 30vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+@media(max-width: 48rem){
+	.bloco-porque__caixa--itens{
+		width: 90%;
+	}
 }
 .bloco-porque__caixa--icone{
 	width: 20%;
@@ -227,40 +236,21 @@
 	font-weight:400;	
 	color: #2E3292;
 }
-@media(max-width: 48rem){
-	.bloco-porque{
-	width: 100%;
-	height: 60rem;
-	}
-	.bloco-porque__titulo{
-	width: 100%;
-	font-size: 1.8em;
-	padding-bottom: 20px;
-	}
-	.bloco-porque__caixa{
-	height: 90%;
-	}
-	.bloco-porque__caixa--itens{
-	width: 90%;
-	height: 30vh;}
-}
-/*>>>>>>>>>>>>>bloco-porque > bloco-polos >>>>>>>>>>
+
+/*>>>>>>>>>>>>>bloco-porque > bloco-polos >>>>>>>>>>*/
 .bloco-polos{
-	width: 100vw;
-	height: 45rem;
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: space-around;
+	justify-content: flex-start;
 	background-color: #E84710;
 }
 @media(max-width: 48rem){
 	.bloco-polos{
-	width: 100vw;
-	height: 170vh;
 	}
 }
 .bloco-polos__titulo{
-	margin-bottom: 30px;
 	font-size: 3.5em;
 	font-family:ministry, sans-serif;
 	font-style:normal;
@@ -271,47 +261,46 @@
 }
 @media(max-width: 48rem){
 	.bloco-polos__titulo{
-	margin-bottom: 30px;
-	font-size: 2.5em;
+/*	margin-bottom: 30px;
+*/	font-size: 2.5em;
 	}
 }
 .bloco-polos__container{
-	width: 95%;
-	height: 80vh;
+	min-height: 40vh;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: space-around;
+	align-items: space-around;
 }
 @media(max-width: 48rem){
 	.bloco-polos__container{
-	height:140vh;
+		justify-content: center;
+		align-items: center;
 	}
 }
 .bloco-polos__caixa{
-	width: 48%;
+	width: 40%;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	align-items: flex-start;
 }
 @media(max-width: 48rem){
 	.bloco-polos__caixa{
-	width: 60vw;
-	margin-left: 12%;
+		width: 80%;
+		align-items: center;
+		text-align: center;
 	}
 }
 .bloco-polos__caixa--img{
 	width: 100%;
-	margin-bottom: 5px;
-	padding: 2px;
 }
 @media(max-width: 48rem){
 	.bloco-polos__caixa--img{
-	width: 80vw;
+		width: 80vw;
 	}
 }
 .bloco-polos__caixa--titulo{
-	width: 100%;
 	font-size: 2em;
 	font-family:ministry, sans-serif;
 	font-style:normal;
@@ -334,10 +323,9 @@
 	color: #2E3292;
 }
 
-/*>>>>>>>>>>>>>>fim bloco-polos > inicio bloco-modulos >>>>>>>>>>>
+/*>>>>>>>>>>>>>>fim bloco-polos > inicio bloco-modulos >>>>>>>>>>>*/
 .bloco-modulos{
-	width: 100vw;
-	height: 38rem;
+	min-height: 38rem;
 	padding-bottom: 5%;
 	display: flex;
 	flex-direction: column;
@@ -345,13 +333,12 @@
 	align-items: center;
 	background-image: url(assets/ALUNOS.jpg);
 }
-@media(max-width: 48rem){
+/*@media(max-width: 48rem){
 	.bloco-modulos{
-	width: 100vw;
 	height: 85rem;
 
 	}
-}
+}*/
 .bloco-modulos__titulo{
 	font-size: 3.5em;
 	font-family:ministry, sans-serif;
@@ -368,7 +355,7 @@
 }
 .bloco-modulos__container{
 	width: 75%;
-	height: 65vh;
+	min-height: 65vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -377,8 +364,8 @@
 @media(max-width: 48rem){
 	.bloco-modulos__container{
 	width: 80vw;
-	height: 100rem;
-	}
+/*	height: 100rem;
+*/	}
 }
 .bloco-modulos__caixa{
 	width: 15rem;
@@ -403,7 +390,7 @@
 	color: #fff;
 }
 .bloco-modulos__caixa--img{
-	width: 90vw;
+	width: 20vw;
 }
 @media(max-width: 48rem){
 	.bloco-modulos__caixa--img{
@@ -424,10 +411,11 @@
 }
 .bloco-modulos__button{
 	width: 18vw;
-	height: 6vh;
+	height: 11vh;
+	margin-top: 2rem;
 	background: #313B80;
 	border: 3px solid #fff;
-	border-radius: 19px 19px 19px 19px;
+	border-radius: 20px;
 	color: #fff;
 	font-family:ministry, sans-serif;
 	font-style:normal;
@@ -439,11 +427,11 @@
 	width: 55vw;
 	height: 6vh;
 	font-size: 0.9em;
+	margin-top: 0.5rem;
 	}
 }
-/*>>>>>>>>>>>>>>fim bloco-modulos > inicio bloco-depoimentos >>>>>>>>>>>
+/*>>>>>>>>>>>>>>fim bloco-modulos > inicio bloco-depoimentos >>>>>>>>>>>*/
 .depoimentos{
-	width: 100vw;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -451,37 +439,54 @@
 }
 @media(max-width: 48rem){
 .depoimentos{
-	width: 100vw;
 	flex-direction: column;
 	}
 }
 .depoimentos-bloco{
-	width: 33.3vw;	
-	height: 65vh;
+	width: 33.3%;	
+	min-height: 60vh;
 	display: flex;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 }
 @media(max-width: 48rem){
 	.depoimentos-bloco{
-	width: 100vw;
-	height: auto;
-	display: flex;
+		width: 100%;
 	}
+}
+
+.guilherme{
+
+	background-image: url(assets/depoGuilherme-m.jpg);
+}
+/*@media(max-width: 48rem){
+	.guilherme{
+	background-image: url(assets/depoGuilherme.jpg);
+	}
+}*/
+.leticia{
+	/*background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;*/
+	background-image: url(assets/depoLeticia-m.jpg);
+}
+.lucia{
+	background-image: url(assets/depoLucia-m.jpg);
 }
 .depoimentos-bloco__caixa {
 	width: 18vw;
-	height: 30vh;
+	min-height: 60vh;
 	margin-left: 3%;
-	margin-top: 3%;
 	display: flex;
-	justify-content: space-between;
 	flex-direction: column;
+	justify-content: space-around;
 }
 @media(max-width: 48rem){
 	.depoimentos-bloco__caixa {
-	width: 60%;
-	height: 90%;
+	width: 40%;
 /*	background-color: green;
-	}
+*/	}
 }
 .depoimentos-bloco__caixa--titulo{
 	font-family:ministry, sans-serif;
@@ -489,7 +494,6 @@
 	font-weight:700;
 	font-size: 1em;
 	color: #2E3292;
-	margin-bottom: 15px;
 }
 @media(max-width: 48rem){
 	.depoimentos-bloco__caixa--titulo{
@@ -502,7 +506,6 @@
 	font-style:normal;
 	font-weight:400;
 	color: #fff;
-	margin-bottom: 15px;
 }
 @media(max-width: 48rem){
 	.depoimentos-bloco__caixa--texto{
@@ -520,7 +523,6 @@
 	}
 }
 .depoimentos-bloco__caixa-botao{
-	margin-top: 10%;
 	align-self: baseline;
 }
 .depoimentos-bloco__caixa-botao--editado{
@@ -531,7 +533,7 @@
 	border: 3px solid #313B80;
 	border-radius: 19px 19px 19px 19px;
 	font-family: Source Bold;
-	font-size: 1.1em;
+	font-size: 1.1vw;
 	font-weight: 700;
 	color: #2E3192;
 }
@@ -542,34 +544,6 @@
 	height: 6vh;
 	font-size: 3vw;
 	}
-}
-.guilherme{
-	background-repeat: no-repeat;
-	background: cover; 	
-	background-position: center;
-	background-size: 52vw;
-	background-image: url(assets/depoGuilherme.jpg);
-}
-@media(max-width: 48rem){
-	.guilherme{
-	background-image: url(assets/depoGuilherme.jpg);
-	}
-}
-.leticia{
-	background-repeat: no-repeat;
-	background: cover; 	
-	background-position: center;
-	background-size: 52vw;
-	background-image: url(assets/depoLeticia.jpg);
-}
-@media(max-width: 48rem){}
-.lucia{
-	background-repeat: no-repeat;
-	background: cover; 	
-	background-position: right;
-	background-size: 55vw;
-	background-image: url(assets/depoLucia.jpg);
-	background-position: center; 
 }
 @media(max-width: 48rem){}
 /*>>>>>>>>>>>>>>fim bloco-depoimentos > inicio bloco Apoiar >>>>>>>>>>>
