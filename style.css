@@ -448,7 +448,7 @@
 }
 .depoimentos-bloco{
 	width: 33.3vw;	
-	height: 40vh;
+	height: 60vh;
 	display: flex;
 }
 @media(max-width: 48rem){
@@ -538,7 +538,7 @@
 	background-repeat: no-repeat;
 	background: cover; 	
 	background-position: center;
-	background-size: 35vw;
+	background-size: 52vw;
 	background-image: url(assets/depoGuilherme.jpg);
 }
 @media(max-width: 48rem){
@@ -564,3 +564,217 @@
 	background-position: center; 
 }
 @media(max-width: 48rem){}
+/*>>>>>>>>>>>>>>fim bloco-depoimentos > inicio bloco Apoiar >>>>>>>>>>>*/
+.apoiar{
+	height: 63vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+@media(max-width: 48rem){
+	.apoiar{
+		width: 100%
+/*	height: 75vh;
+*/	}
+}
+.apoiarContainer{
+	width: 50vw;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border-width:5px;
+	border-style: solid;
+	border-color: #2E3292;
+	background-color: #2E3292;
+}
+@media(max-width: 48rem){
+	.apoiarContainer{
+	width: 85%;
+/*	height: 90%;
+*/	}
+}
+
+.apoiarContainer__blocoAmarelo{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FCAF17;
+}
+.apoiarContainer__blocoAmarelo--bolinhas{
+	width: 110px;
+	display: flex;
+	justify-content: space-around;
+	padding: 2%;
+	margin: 2%;
+
+}
+.apoiarContainer__blocoAmarelo--bolinhasAzuis{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #2E3292;
+}
+.apoiarContainer__blocoAmarelo--titulo{
+	padding: 10px;
+	font-family: Source Bold;
+	font-size: 1.5em;
+	color: #2E3292;
+}
+@media(max-width: 48rem){
+	.apoiarContainer__blocoAmarelo--titulo{
+	padding: 10px;
+	font-size: 1em;
+	}
+}
+
+.apoiarContainer__blocoAzul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.apoiarContainer__blocoAzul--texto{
+	width: 35vw;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-family: Source Light;
+	font-size: 1.5em;
+	color: #fff;
+}
+@media(max-width: 48rem){
+	.apoiarContainer__blocoAzul--texto{
+	width: 60vw;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: 1em;
+	}
+}
+.apoiar-bloco__caixa-botao--editado{
+	display: block;
+	width: 18vw;
+	height: 6vh;
+	background: #F4AC28;
+	border: 3px solid #313B80;
+	border-radius: 19px 19px 19px 19px;
+	font-family: Source Bold;
+	font-size: 1.1em;
+	font-weight: 700;
+	color: #2E3192;
+}
+@media(max-width: 48rem){
+	.apoiar-bloco__caixa-botao--editado{
+	width: 68vw;
+	}
+}
+/*>>>>>>>>>>>>>>fim bloco Apoiar > inicio bloco rodapé >>>>>>>>>>>*/
+.rodape{
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	border: 8px solid #2e3192;
+	border-top: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	position: relative;	
+}
+.rodape__blocoleft{
+	width: 54%;
+	padding: 3%;
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.rodape__blocoleft--texto{
+	width: 80%;
+	height: 20vh;
+	font-size: 120%;
+	color: #2e3192;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+}
+.rodape__blocoleft--botao{
+	width: 18vw;
+	height: 10%;
+	background: #FCAF17;
+	border: 2px solid #2e3192;
+	border-radius: 19px 19px 19px 19px;
+	color: #2e3192;
+	font-size: 1.2em;
+	font-family: Source Bold;
+	font-style: normal;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rodape__blocoleft__container{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.rodape__blocoleft__caixaIcons{
+	width: 45%;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.rodape__blocoleft__caixaIcons--icon{
+	width:20% ;
+}
+.rodape__blocoleft__caixaIcons--adress{
+	padding: 10px;
+	font-size: 2vh;
+	font-family: Source Light;
+	font-style: normal;
+	font-weight: 700;
+	color: #2e3192;
+}
+.rodape__blocoRight{
+	width: 46%;
+	height: 97vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+/*	background: url(assets/trioalunos) bottom no-repeat;
+*/	background-size: 100%;
+}
+.rodape__blocoRight--texto{
+	width: 100%;
+	height:15vh;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 1.2em;
+	font-family: Source Bold;
+	font-style: normal;
+	font-weight: 700;
+}
+.rodape__blocoRight__caixa{
+	width: 80%;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.rodape__blocoRight--icons{
+	width: 25%;
+	left: 25%;
+	padding: 5px;
+}
+.rodape__blocoRight__imagem{
+	width: 100%;
+}
