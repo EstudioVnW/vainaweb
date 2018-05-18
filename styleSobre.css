@@ -1,0 +1,335 @@
+/*<<<<<<<< INICIO MENU Principal >>>>>>>*/
+.menu {
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #efa616;
+	border:solid;
+	border-width: thick;
+	border-color: #2e3292;
+}
+
+.menu__logo1{
+	height: 30vh;
+	margin-top: 20vh;
+	margin-left: 20px;	
+}
+.menu__logo2{
+	height: 4.5vw;
+	margin-left: 50px;	
+}
+
+.menu__caixa--itens{
+	width: 70vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu__itens{
+	padding-right: 1.3vw;
+	font-family: Source Bold;
+	font-weight: 700;
+	color: #2E3192;
+	text-decoration: none;
+}
+
+@media(max-width: 48rem){
+	.menu__itens{
+		display: none;
+	}
+}
+/*>>>>>>>>>>>>>>>>>>> fim menu > inicio sobreContainer>>>>>>>>>>>>>>>>>>>*/
+
+.sobreContainer{
+	width: 100%;
+	display: flex;
+	flex-wrap: row wrap;
+/*	background-color: blue;
+*/
+}
+.sobreContainer__left{
+	width: 50%;	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+/*	background-color: red;
+*/	justify-content: space-around;
+}
+.sobreContainer__right{
+	width: 50%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+/*	background-color: green;
+*/}
+.sobreContainer__right--caixa{
+	width: 46%;
+	display: flex;
+}
+.sobreContainer__right--caixaIMG{
+	width: 100%;
+	padding: 10px;
+}
+.sobreContainer__right--caixaIMAGEM{
+	width: 92%;
+	padding: 10px;
+
+}
+.sobreContainer__caixa{
+	width: 73%;
+	margin-top: 5%;
+/*	background-color: green;
+*/}
+.sobreContainer__caixa--titulo{
+	font-size: 2em;
+	color: #E84710;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-align: left;
+}
+.sobreContainer__caixa--texto{
+	font-size: 125%;
+	color: #2e3192;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+}
+.sobreContainer__caixa--botao{
+	margin-top: 5%; 
+	display: block;
+	width: 18vw;
+	height: 6vh;
+	background: #F4AC28;
+	border: 3px solid #313B80;
+	border-radius: 19px 19px 19px 19px;
+	font-family: Source Bold;
+	font-size: 1.1em;
+	font-weight: 700;
+	color: #2E3192;
+}
+/*>>>>>>>>>>>>>>>>>>> fim sobreContainer > inicio Equipe >>>>>>>>>>>>>>>>>>>*/
+
+.equipeVNW{
+	width: 100vw;
+}
+.equipeVNW__barra{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.equipeVNW-container{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: red;
+}
+.equipeVNW__boxFoto{
+	width: 60vw;
+	height:100%;
+/*	background-color: pink;
+*/	overflow: hidden;
+    position: relative;}
+.equipeVNW__boxFoto--img{
+	width: 100%;
+	position: absolute;
+}
+.equipeVNW__boxtexto--descricao{
+	display: none;
+	width: 40%;  
+}
+.equipeVNW__boxtexto--colaboratorLeft{
+	width: 40%;  	
+}
+.equipeVNW__boxtexto--colaboratorLeft{
+	width: 40%;}
+
+.botao:checked ~ .equipeVNW__boxtexto--colaborator {
+  display: none;
+}
+.botao:checked ~ .equipeVNW__boxtexto--descricao {
+  display: block;
+}
+.equipeVNW__boxtexto__boxdescricao--texto{
+	font-size: 12px;
+}
+.barraAmarela{
+	background-color: #FCAF17;
+}
+.barraAzul{
+	background-color: #2E3292;
+}
+.barraLaranja{
+	background-color: #E84710;
+}
+/*>>>>>>>>>>>>>>fim bloco Apoiar > inicio bloco rodapé >>>>>>>>>>>*/
+.rodape{
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+/*	position: relative;	
+*/}
+@media(max-width: 48rem){
+	.rodape{
+	height: 200vh;
+	justify-content: flex-start;
+	flex-direction: column;
+	}
+}
+.rodape__blocoleft{
+	width: 54%;
+	padding: 3%;
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+@media(max-width: 48rem){
+	.rodape__blocoleft{
+	width: 100%;
+	height: 65vh;
+	}
+}
+.rodape__blocoleft--texto{
+	width: 80%;
+	height: 20vh;
+	font-size: 120%;
+	color: #2e3192;
+	font-family: ministry, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+}
+@media(max-width: 48rem){
+	.rodape__blocoleft--texto{
+	width: 100%;
+	height: 26vh;
+	margin-bottom: 10%;
+	font-size: 1em;
+	text-align: justify-all;
+	}
+}
+.rodape__blocoleft--botao{
+	width: 18vw;
+	height: 10%;
+	background: #FCAF17;
+	border: 2px solid #2e3192;
+	border-radius: 19px 19px 19px 19px;
+	color: #2e3192;
+	font-size: 1.2em;
+	font-family: Source Bold;
+	font-style: normal;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media(max-width: 48rem){
+	.rodape__blocoleft--botao{
+	width: 65vw;
+	}
+}
+.rodape__blocoleft__container{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.rodape__blocoleft__caixaIcons{
+	width: 45%;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.rodape__blocoleft__caixaIcons--icon{
+	width:20% ;
+}
+@media(max-width: 48rem){
+	.rodape__blocoleft__caixaIcons{
+	width: 60%;
+	margin: 8px;
+	}
+}
+.rodape__blocoleft__caixaIcons--adress{
+	padding: 10px;
+	font-size: 2vh;
+	font-family: Source Light;
+	font-style: normal;
+	font-weight: 700;
+	color: #2e3192;
+}
+@media(max-width: 48rem){
+	.rodape__blocoleft__caixaIcons--adress{
+	padding: 10px;
+	font-size: 0.9em;
+	}
+}
+.rodape__blocoRight{
+	width: 46%;
+	height: 97vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+/*	background: url(assets/trioalunos) bottom no-repeat;
+*/	background-size: 100%;
+}
+@media(max-width: 48rem){
+	.rodape__blocoRight{
+	width: 100%;
+	height: 97vh;
+	margin-top: 40%;
+	align-items: center;
+	}
+}
+.rodape__blocoRight--texto{
+	width: 100%;
+	height:15vh;
+	text-align: center;
+	padding-top: 5%;
+	font-size: 1.2em;
+	font-family: Source Bold;
+	font-style: normal;
+	font-weight: 700;
+}
+.rodape__blocoRight__caixa{
+	width: 80%;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.rodape__blocoRight--icons{
+	width: 25%;
+	left: 25%;
+	padding: 5px;
+}
+@media(max-width: 48rem){
+	.rodape__blocoRight--icons{
+	width: 40%;
+	left: 40%;
+	padding: 5px;
+	}
+}
+.rodape__blocoRight__imagem{
+	width: 90vw;
+}
+@media(max-width: 48rem){
+	.rodape__blocoRight__imagem{
+	height: 30vh;
+	}
+}
