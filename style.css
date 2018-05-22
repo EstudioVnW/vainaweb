@@ -1,3 +1,34 @@
+*,
+*:after,
+*:before{
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: Ministry Heavy;
+	src: url(fonts/Ministry Heavy.ttf);
+}
+@font-face {
+	font-family: Source Black;
+	src: url(fonts/SourceCodePro-Black.ttf);
+}
+
+@font-face {
+	font-family: Source Bold;
+	src: url(fonts/SourceCodePro-Bold.ttf);
+}
+
+@font-face {
+	font-family: Source Light;
+	src: url(fonts/SourceCodePro-Light.ttf);
+}
+
+@font-face {
+	font-family: Source Medium;
+	src: url(fonts/SourceCodePro-Medium.ttf);
+}
+
 .menu {
 	display: flex;
 	justify-content: space-between;
@@ -337,13 +368,10 @@
 	background-repeat: no-repeat;
 	background: cover;
 	background-position: center;
-
 }
 @media(max-width: 48rem){
 	.bloco-modulos{
-/*	width: 100vw;
-*/	height: 74rem;
-
+	height: 74rem;
 	}
 }
 .bloco-modulos__titulo{
@@ -361,7 +389,7 @@
 	}
 }
 .bloco-modulos__container{
-	width: 75%;
+	width: 75vw;
 	height: 65vh;
 	display: flex;
 	flex-wrap: wrap;
@@ -397,7 +425,7 @@
 	color: #fff;
 }
 .bloco-modulos__caixa--img{
-	width: 90vw;
+	width: 20vw;
 }
 @media(max-width: 48rem){
 	.bloco-modulos__caixa--img{
@@ -674,8 +702,8 @@
 	width: 68vw;
 	}
 }
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-/*<<<<<<<< INICIO RODAPE>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*//*<<<<<<<< INICIO RODAPE>>>>>>>>>>>>>*/
 .rodape{
 	height: 100vh;
 	background: #fff;
